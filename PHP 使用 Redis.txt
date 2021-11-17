@@ -10,7 +10,7 @@ PHP安装redis扩展
 
 $ wget https://github.com/phpredis/phpredis/archive/3.1.4.tar.gz
 $ tar zxvf 3.1.4.tar.gz                  # 解压
-$ cd phpredis-3.1.4                      # 进入 phpredis 目录
+$ cd phpredis-3.1.4                  9    # 进入 phpredis 目录
 $ /usr/local/php/bin/phpize              # php安装后的路径
 $ ./configure --with-php-config=/usr/local/php/bin/php-config
 $ make && make install
@@ -37,3 +37,6 @@ extension=redis.so
 
 Connection to server sucessfully
 Server is running: PONG
+
+
+
