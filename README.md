@@ -13,3 +13,9 @@ UTermux[魔改版] - 0.102.93
 
 
 Utermux魔改版   - 0.102.93
+
+
+$ termux-setup-storage
+
+
+
