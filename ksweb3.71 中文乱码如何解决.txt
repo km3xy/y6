@@ -1,0 +1,18 @@
+https://m.lhdown.com/shouji/68241.html
+
+领航下载 ksweb3.71
+
+2、中文乱码如何解决？
+
+在php.ini里，
+
+把default_charset = “utf-8″注释掉就可以了，
+
+为##default_charset = “utf-8″##，显示正常！
+
+
+
+
+
+
+
