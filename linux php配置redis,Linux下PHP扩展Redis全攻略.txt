@@ -7,9 +7,8 @@ linux php配置redis,Linux下PHP扩展Redis全攻略 转载
 
 kimi的萌miki 
 
-码龄3年
 
-关注
+
 翻遍网上各种各样的安装教程，问题不断。
 
 折腾两天后终于搞定这玩意，
