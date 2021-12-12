@@ -1,6 +1,10 @@
 
 ZeroTermux下载utermux工具包极速恢复包
 
+
+github    ZeroTermux  作者
+
+
 https://github.com/hanxinhao000/ZeroTermux
 
 
