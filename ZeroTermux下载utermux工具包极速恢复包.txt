@@ -1,0 +1,29 @@
+
+ZeroTermux下载utermux工具包极速恢复包
+
+https://github.com/hanxinhao000/ZeroTermux
+
+
+用恢复包恢复后
+
+
+http://127.0.0.1:8080
+
+echo '<?php phpinfo(); ?>' > $PREFIX/share/apache2/default-site/htdocs/index.php
+
+
+
+ZeroTermux下载utermux工具包极速恢复包
+
+
+
+用恢复包恢复后
+
+
+然后浏览器访问: http://127.0.0.1:8080
+
+echo '<?php phpinfo(); ?>' > $PREFIX/share/apache2/default-site/htdocs/index.php
+
+
+
+
