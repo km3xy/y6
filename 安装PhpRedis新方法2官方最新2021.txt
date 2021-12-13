@@ -1,0 +1,66 @@
+安装PhpRedis
+PhpRedis的安装说明在INSTALL.markdown文件。安装PhpRedis的推荐方法是使用pecl。
+
+获取pecl:
+
+apt install pkg-php-tools
+安装PhpRedis:
+
+pecl install redis
+你也可以下载最新的PhpRedis版本来自GitHub存储库。
+
+使用PhpRredis打开到Redis的连接
+下面的代码使用PhpRredis创建到Redis的连接:
+
+<?php
+ 
+$redis = new Redis();
+//Connecting to Redis
+$redis->connect('hostname', port);
+$redis->auth('password');
+ 
+if ($redis->ping()) {
+        echo "PONGn";
+}
+ 
+?>
+要使此示例适应您的代码，请确保用数据库的值替换以下值:
+
+
+
+https://developer.redis.com/develop/php/
+
+
+https://github.com/redis-developer/redis-php-getting-started/
+
+
+https://developer.redis.com/develop/ruby/
+
+
+
+https://github.com/phpredis/phpredis/blob/develop/INSTALL.markdown
+
+
+install.markdown
+
+
+git clone https://github.com/phpredis/phpredis.git
+cd phpredis
+phpize
+./configure [--enable-redis-igbinary] [--enable-redis-msgpack] [--enable-redis-lzf [--with-liblzf[=DIR]]] [--enable-redis-zstd]
+make && make install
+
+
+
+
+Windows: 版下载地址 
+
+DLL是Windows 版
+
+Follow the DLL link on the https://pecl.php.net/package/redis 
+
+page.
+
+
+
+
